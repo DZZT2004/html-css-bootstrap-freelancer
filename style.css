@@ -1,6 +1,7 @@
 .box_1{
     background-color: #2c3e50;
     color: #ffffff;
+    height: 75px;
 }
 
 .box_2, .box_4{
@@ -24,12 +25,29 @@
     border-radius: 25px;
 }
 
+.box_1 h3{
+    white-space: nowrap;
+}
+
+.oggetto{
+    text-align: right;
+}
+
 .avatar{
     width: 200px;
 }
 
 .stella{
     width: 60px;
+}
+
+.fa-plus{
+    position: absolute;
+}
+
+.line{
+    min-width: 80px;
+    width: 13%;
 }
 
 .col-1 hr{
@@ -78,15 +96,23 @@
     background-color: #2c3e50;
 }
 
-@media screen and (min-width: 1121px){
-    .box_1{
-        background-color: #2c3e50;
-        color: #ffffff;
-        /* padding: 0 269px 0 269px; */
-    }
+.jobs{
+    padding: 0;
+}
+
+.designer{
+    min-width: 200px;
+    width: 360px;
+    padding: 0;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 576px){
     
-    .box_2{
-        
+    .designer{
+        width: calc(90% + 50px);
     }
     
     .box_3{
